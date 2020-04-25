@@ -1,3 +1,5 @@
+<html>
+
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
@@ -11,9 +13,21 @@
 	</style>
 	<img src="./images/menu1-1.jpg">
 	<script>
-		setInterval(function() {
+		setTimeout(function() {
+			$("img").attr("src", "./images/menu1-2.jpg");
+			setTimeout(function() {
+				$("img").attr("src", "./images/menu1-20.jpg");
+				setTimeout(function() {
+					$("img").attr("src", "./images/menu1-21.jpg");
+				}, 1 * 15 * 1000);
+			}, 1 * 15 * 1000);
+		}, 1 * 15 * 1000);
+
+		setTimeout(function() {
 			location.reload();
-		}, 60 * 1000)
+		}, 1 * 60 * 1000);
 
 	</script>
 </body>
+
+</html>
