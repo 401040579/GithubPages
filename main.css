@@ -1,7 +1,7 @@
 .engine-wrap {
-	width: 25%;
 	height: 25px;
 	float: left;
+	padding: 10px 50px 10px 50px;
 }
 
 .form-wrap {
@@ -10,4 +10,18 @@
 
 .search-input {
 	width: 60%;
+}
+
+.site-name span {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+#j-fixed-wrap {
+	margin: auto;
+	width: 60%;
+	/*	border: 3px solid green;*/
+	padding: 10px;
+	height: 45px;
 }
