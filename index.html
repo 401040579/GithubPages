@@ -2,21 +2,37 @@
 <html>
 
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>AIUOS Tools</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AIUOS</title>
 	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="index.js"></script>
 </head>
 
 <body>
-	<textarea id="exejs" rows="10" cols="100"></textarea>
-	<button onclick="exejsFunc()">Submit</button>
-	<button onclick="clearHistory()">Clear History</button>
-	<div>History:</div>
-	<div id="historyContainer"></div>
+	<div class="l-g header-bg module-search-box lite" id="j-module-search-box" log-mod="search-new" data-pos="search">
+		<div class="l-wrap search-wrap">
+			<h1 class="site-name"><span>AIUOS</span></h1>
+			<div id="j-fixed-wrap" class="">
+				<div id="j-engine-wrap" class="engine-wrap">
+					<ul class="multi">
+						<li class="j-engine engine selected" data-index="0" engine-name="google" data-key="q" data-action="http://www.google.com/search"><img class="engine-logo" src="http://en.hao123.com/resource/fe/us/search_logo/google-s.png"></li>
+					</ul>
+				</div>
+				<div class="form-wrap">
+					<form id="j-search-form" class="search-form" action="http://www.google.com/search"> <input type="text" id="j-search-input" class="search-input blur" name="q" placeholder="Hello, what are you searching for?" autocomplete="off">
+						<button class="search-btn" style="width: 30px;">
+							<span>
+								<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+								</svg>
+							</span>
+						</button>
+						<span class="j-search-params" style="display:none;">
+							<input type="hidden" name="ie" value="UTF-8">
+						</span>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>

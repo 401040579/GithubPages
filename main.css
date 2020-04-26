@@ -1,5 +1,13 @@
-#main-content {
-  font-size: 36px;
-  font-weight: bold;
-  padding: 16px;
+.engine-wrap {
+	width: 25%;
+	height: 25px;
+	float: left;
+}
+
+.form-wrap {
+	height: 25px;
+}
+
+.search-input {
+	width: 60%;
 }
