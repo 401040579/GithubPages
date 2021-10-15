@@ -1,4 +1,4 @@
-function load_question() {
+function load_question(mode) {
     $("#list").html('');
     if (window.question_arr && window.question_arr.length > 0) {
 
@@ -11,6 +11,9 @@ function load_question() {
         var question = __.shift();
         var answer = __.pop();
         var options = __;
+        if (mode == "shuffle_option") {
+            options = shuffle(options);
+        }
         $("#list").append(`<div>
         <p>`+ question + `</p>
         <div>
@@ -51,5 +54,5 @@ function shuffle(array) {
 }
 function random_questions() {
     window.question_arr = shuffle(window.question_arr);
-    load_question();
+    load_question("shuffle_option");
 }
