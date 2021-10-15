@@ -1,8 +1,12 @@
 function load_question() {
-    var str = window.str;
-    var question_arr = str.split("\n");
+    $("#list").html('');
+    if (window.question_arr && window.question_arr.length > 0) {
 
-    for (var _ of question_arr) {
+    } else {
+        window.question_arr = window.str.split("\n");
+    }
+
+    for (var _ of window.question_arr) {
         var __ = _.split(';');
         var question = __.shift();
         var answer = __.pop();
@@ -31,4 +35,21 @@ function load_question() {
             $(this).parent().find(".alert").text("Answer: " + $(this).attr("answer"));
         }
     })
+}
+function shuffle(array) {
+    let currentIndex = array.length, randomIndex;
+    // While there remain elements to shuffle...
+    while (currentIndex != 0) {
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+    }
+    return array;
+}
+function random_questions() {
+    window.question_arr = shuffle(window.question_arr);
+    load_question();
 }
