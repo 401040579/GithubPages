@@ -9,8 +9,8 @@
 
 <channel>
 	<title>restmesh &#8211; Timeless Tea（茶千岁）</title>
-	<atom:link href="http://192.168.50.189/author/restmesh/feed/?simply_static_page=191" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="http://192.168.50.189/author/restmesh/feed/?simply_static_page=383" rel="self" type="application/rss+xml" />
+	<link>/GithubPages/simplystatic/timelesstea/</link>
 	<description></description>
 	<lastBuildDate>Thu, 16 Mar 2023 23:34:13 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,28 +21,28 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 
 <image>
-	<url>/wp-content/uploads/2023/03/cropped-486e30796c357f030798a63551e9770-32x32.webp</url>
+	<url>/GithubPages/simplystatic/timelesstea/wp-content/uploads/2023/03/cropped-486e30796c357f030798a63551e9770-32x32.webp</url>
 	<title>restmesh &#8211; Timeless Tea（茶千岁）</title>
-	<link>/</link>
+	<link>/GithubPages/simplystatic/timelesstea/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Hello world!</title>
-		<link>/2023/03/16/hello-world/</link>
-					<comments>/2023/03/16/hello-world/#comments</comments>
+		<link>/GithubPages/simplystatic/timelesstea/2023/03/16/hello-world/</link>
+					<comments>/GithubPages/simplystatic/timelesstea/2023/03/16/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[restmesh]]></dc:creator>
 		<pubDate>Thu, 16 Mar 2023 23:34:13 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">/GithubPages/simplystatic/timelesstea/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2023/03/16/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/GithubPages/simplystatic/timelesstea/2023/03/16/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Timeless Tea（茶千岁）	</title>
-	<atom:link href="http://192.168.50.189/comments/feed/?simply_static_page=52" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="http://192.168.50.189/comments/feed/?simply_static_page=244" rel="self" type="application/rss+xml" />
+	<link>/GithubPages/simplystatic/timelesstea/</link>
 	<description></description>
 	<lastBuildDate>Thu, 16 Mar 2023 23:34:13 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Comment on Hello world! by A WordPress Commenter		</title>
-		<link>/2023/03/16/hello-world/#comment-1</link>
+		<link>/GithubPages/simplystatic/timelesstea/2023/03/16/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Thu, 16 Mar 2023 23:34:13 +0000</pubDate>
-		<guid isPermaLink="false">/?p=1#comment-1</guid>
+		<guid isPermaLink="false">/GithubPages/simplystatic/timelesstea/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
